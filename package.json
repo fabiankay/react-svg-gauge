@@ -1,7 +1,7 @@
 {
   "name": "react-svg-gauge-custom",
   "version": "1.0.1",
-  "description": "Original author Tim de Koning. Justgage inspired .svg gauge for React. This is customized version of react-svg-gauge with added TypeScript Support and optional label.",
+  "description": "Original author Tim de Koning. Justgage inspired .svg gauge for React. This is customized version of react-svg-gauge with added TypeScript Support and removed label.",
   "author": "Fabian Kainz",
   "user": "fabiankay",
   "main": "lib/Gauge.js",

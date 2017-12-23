@@ -2,7 +2,6 @@ declare module "react-svg-gauge-custom" {
     import { Component, CSSProperties } from "react";
    
     export interface IGaugeProps {
-      label?: string;
       max?: number;
       min?: number;
       value?: number;
