@@ -1,10 +1,11 @@
 {
-  "name": "react-svg-gauge",
-  "version": "1.0.6",
-  "description": "Justgage inspired .svg gauge for React",
-  "author": "Tim de Koning",
-  "user": "Reggino",
+  "name": "react-svg-gauge-custom",
+  "version": "1.0.0",
+  "description": "Original author Tim de Koning. Justgage inspired .svg gauge for React. This is customized version of react-svg-gauge with added TypeScript Support and optional label.",
+  "author": "Fabian Kainz",
+  "user": "fabiankay",
   "main": "lib/Gauge.js",
+  "typings": "module.d.ts",
   "license": "MIT",
   "keywords": [
     "react-component",
@@ -41,10 +42,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Reggino/react-svg-gauge.git"
+    "url": "git+https://github.com/fabiankay/react-svg-gauge.git"
   },
   "bugs": {
-    "url": "https://github.com/Reggino/react-svg-gauge/issues"
+    "url": "https://github.com/fabiankay/react-svg-gauge/issues"
   },
-  "homepage": "https://github.com/Reggino/react-svg-gauge#readme"
+  "homepage": "https://github.com/fabiankay/react-svg-gauge#readme"
 }

@@ -78,9 +78,9 @@ export default class Gauge extends Component {
 					</defs>
 					<path fill={this.props.backgroundColor} stroke="none" d={this._getPath(this.props.max)} filter="url(#g3-inner-shadow)" />
 					<path fill={this.props.color} stroke="none" d={this._getPath(this.props.value)} filter="url(#g3-inner-shadow)" />
-					<text x={this.props.width / 2} y={this.props.height / 8} textAnchor="middle" style={topLabelStyle}>
+					{ this.props.label ? <text x={this.props.width / 2} y={this.props.height / 8} textAnchor="middle" style={topLabelStyle}>
 						{ this.props.label }
-					</text>
+					</text>: null }
 					<text x={this.props.width / 2} y={this.props.height / 5 * 4} textAnchor="middle" style={valueLabelStyle}>
 						{ this.props.value + this.props.symbol  }
 					</text>
