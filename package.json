@@ -11,7 +11,8 @@
     "react-component",
     "react",
     "svg",
-    "gauge"
+    "gauge",
+    "typescript"
   ],
   "devDependencies": {
     "babel-cli": "^6.11.4",

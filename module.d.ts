@@ -1,4 +1,4 @@
-declare module "react-svg-gauge" { 
+declare module "react-svg-gauge-custom" { 
     import { Component, CSSProperties } from "react";
    
     export interface IGaugeProps {
