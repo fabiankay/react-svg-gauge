@@ -5,9 +5,11 @@ export default class Gauge extends Component {
 		min: 0,
 		max: 100,
 		value: 40,
+		targetValue: 60,
 		width: 400,
 		height: 320,
 		color: '#fe0400',
+		targetColor: 'red',
 		symbol: '',
 		backgroundColor: "#edebeb",
 		topLabelStyle: {textAnchor: "middle", fill:"#999999", stroke: "none", fontStyle: "normal",fontVariant: "normal", fontWeight: 'bold', fontStretch: 'normal', lineHeight: 'normal', fillOpacity: 1},
@@ -76,6 +78,7 @@ export default class Gauge extends Component {
 						</filter>
 					</defs>
 					<path fill={this.props.backgroundColor} stroke="none" d={this._getPath(this.props.max)} filter="url(#g3-inner-shadow)" />
+					<path fill={this.props.targetColor} stroke="none" d={this._getPath(this.props.targetValue)} filter="url(#g3-inner-shadow)" />
 					<path fill={this.props.color} stroke="none" d={this._getPath(this.props.value)} filter="url(#g3-inner-shadow)" />
 					<text x={this.props.width / 2} y={this.props.height / 5 * 4} textAnchor="middle" style={valueLabelStyle}>
 						{ this.props.value + this.props.symbol  }
