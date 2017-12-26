@@ -39,9 +39,11 @@ Options
 - min (default: 0)
 - max (default: 100)
 - value (default: 40)
+- targetValue
 - width (default: : 400)
 - height (default: 320)
 - color (default: '#fe0400')
+- targetColor
 - backgroundColor (default: '#edebeb')
 - topLabelStyle (style object)
 - valueLabelStyle (style object)
